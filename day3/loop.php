@@ -25,9 +25,8 @@
     for ($i = 0 ;$i <= 20; $i++ ){
         echo "<br>" .$i;
     }
-    echo"<br>";
-    echo"<br>";
-    echo "In ra các số chẵn từ 0 đến 20";
+
+    echo "<br> In ra các số chẵn từ 0 đến 20";
     for ($i = 0; $i <= 20; $i += 2){
         echo "<br>" .$i;
     }
