@@ -69,6 +69,12 @@
         }
         echo '</ul>';
     }
+
+    echo "Truy cập phần tử trong mảng";
+    echo "<br>" .$cities['hn']['district']['hbt']['name'];
+    echo "<br>" .$cities['hn']['district']['hbt']['unit'][0];
+    echo "<br>" .$cities['hn']['district']['hbt']['unit'][1];
+    echo "<br>" .$cities['hn']['district']['hbt']['unit'][2];
     ?>
 </body>
 </html>
